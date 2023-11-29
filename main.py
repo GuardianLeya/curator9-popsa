@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.Breabad_bot('6648365986:AAHHykLKUkczYXKD5rxP22iHUcXhV0GiDiY')
+bot = telebot.TeleBot('6648365986:AAHHykLKUkczYXKD5rxP22iHUcXhV0GiDiY')
 
 
 @bot.message_handler(commands=['start'])
